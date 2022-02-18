@@ -2,7 +2,7 @@
 Language: Macaulay2
 */
 
-export default function(hljs) {
+module.exports = function(hljs) {
   return {
     name: "Macaulay2",
     contains: [
