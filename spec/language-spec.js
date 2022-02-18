@@ -4,16 +4,16 @@
  * the tests and test data for your language requirements.
  */
 const hljs = require("highlight.js/lib/core");
-const language = require("../src/languages/your-language");
+const language = require("../src/languages/macaulay2");
 const fs = require("fs");
 const path = require("path");
-const languageName = "your-language";
+const languageName = "macaulay2";
 const testFileSourcePath = "../test/markup/" + languageName + "/sample.txt";
 const testFileExpectedPath = "../test/markup/" + languageName + "/sample.expect.txt";
 hljs.registerLanguage(languageName, language);
 
 describe("highlight " + languageName, () => {
-  it("defines your-language", () => {
+  it("defines macaulay2", () => {
 
     // highlight has language defined
     const language = hljs.getLanguage(languageName);

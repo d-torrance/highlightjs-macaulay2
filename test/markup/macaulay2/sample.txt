@@ -1,0 +1,39 @@
+"this is a string"
+
+///this is
+   also a string///
+
+-- this is a comment
+
+-* this is also
+a comment *-
+
+R=QQ[x,y]
+
+intersect(ideal(x),ideal(x^2,x*y,y^2)
+
+for i in 1..10 do print "Hello, world!"
+QQ
+
+for n from 0 to 10 list OO_(Proj(QQ[x_0..x_n]))
+
+map
+R = ZZ/101[
+
+for n from
+
+
+infoHelp HH
+
+
+for n from 0 to 10 list HH^2
+
+infoHelp module
+
+HH^1 (QQ[x_0..x_5])^{2}
+infoHelp hh
+methods hh
+methods HH
+infoHelp OO
+R = ZZ/101[x,y,z]
+kernel matrix {{x,y,z}}
