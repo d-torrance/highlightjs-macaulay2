@@ -4,12 +4,12 @@
 
 <span class="hljs-string">&quot;this is how &quot;</span> | <span class="hljs-string">&quot;we concatenate strings&quot;</span>
 
-///this is also
-a string///
+<span class="hljs-string">///this is also
+a string///</span>
 
-///to escape forward slashes (/) in a string, we
+<span class="hljs-string">///to escape forward slashes (/) in a string, we
 use an even number in the middle //// or an odd number
-(at least 3) at the end///
+(at least 3) at the end///</span>
 
 <span class="hljs-comment">-- this is a comment</span>
 
