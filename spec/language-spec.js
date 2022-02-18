@@ -21,8 +21,8 @@ describe("highlight " + languageName, () => {
   });
 
   it ("highlights language string", () => {
-    const string = "assign false builtin";
-    const expected = '<span class="hljs-keyword">assign</span> <span class="hljs-literal">false</span> <span class="hljs-built_in">builtin</span>';
+    const string = "for false rank";
+    const expected = '<span class="hljs-keyword">for</span> <span class="hljs-literal">false</span> <span class="hljs-built_in">rank</span>';
     const result = hljs.highlight(string, { language: languageName, ignoreIllegals: true });
     expect(result.language).toBe(languageName);
     expect(result.value).toBe(expected);

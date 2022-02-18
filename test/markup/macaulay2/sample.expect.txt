@@ -1,11 +1,23 @@
-/* Highlight.js test <span class="hljs-keyword">for</span> some new your-language */
+<span class="hljs-string">&quot;this is a string&quot;</span>
 
-<span class="hljs-keyword">function</span> myFunction(parameter) {
-    <span class="hljs-keyword">assign</span> var = <span class="hljs-number">1234</span> + <span class="hljs-built_in">otherbuiltin</span>(<span class="hljs-literal">void</span>)
-    <span class="hljs-keyword">assign</span> const to <span class="hljs-string">&quot;a quoted string&quot;</span>
-    <span class="hljs-keyword">if</span> (parameter != <span class="hljs-literal">null</span>) {
-        <span class="hljs-keyword">return</span> parameter
-    } <span class="hljs-keyword">else</span> {
-        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>
-    }
-}
+<span class="hljs-string">&quot;this is how we \&quot;escape quotes\&quot; in a string&quot;</span>
+
+<span class="hljs-string">&quot;this is how &quot;</span> | <span class="hljs-string">&quot;we concatenate strings&quot;</span>
+
+///this is also
+a string///
+
+///to escape forward slashes (/) in a string, we
+use an even number in the middle //// or an odd number
+(at least 3) at the end///
+
+<span class="hljs-comment">-- this is a comment</span>
+
+<span class="hljs-comment">-* this is
+also a comment *-</span>
+
+<span class="hljs-comment">-* two comments *-</span> <span class="hljs-number">2</span> + <span class="hljs-number">2</span> <span class="hljs-comment">-* on the same line *-</span>
+
+<span class="hljs-keyword">for</span> i <span class="hljs-keyword">from</span> <span class="hljs-number">0</span> <span class="hljs-keyword">to</span> <span class="hljs-number">10</span> <span class="hljs-keyword">do</span> <span class="hljs-built_in">print</span> <span class="hljs-type">QQ</span>
+
+<span class="hljs-literal">end</span>
