@@ -7,8 +7,6 @@ and commutative algebra.
 [highlight.js](https://highlightjs.org/) is a JavaScript syntax
 highlighter with language auto-detection and zero dependencies.
 
-See an [example](https://www.friedcheese.org/highlightjs-macaulay2/).
-
 ## Usage
 
 Include the Highlight.js library in your webpage or Node app, then load this module.
