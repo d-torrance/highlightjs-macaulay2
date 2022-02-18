@@ -1,8 +1,12 @@
 /*
 Language: Macaulay2
+Author: Doug Torrance <dtorrance@piedmont.edu>
+Description: Macaulay2 is a software system devoted to supporting research in algebraic geometry and commutative algebra
+Website: https://faculty.math.illinois.edu/Macaulay2/
+Category: scientific
 */
 
-module.exports = function(hljs) {
+export default function(hljs) {
   return {
     name: "Macaulay2",
     contains: [
