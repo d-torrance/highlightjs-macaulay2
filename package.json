@@ -1,21 +1,21 @@
 {
-  "name": "highlightjs-your-language",
-  "version": "0.1.0",
-  "author": "John Foster",
-  "description": "A new language template set up when creating a language definition for highlightjs",
-  "main": "src/languages/your-language.js",
+  "name": "highlightjs-macaulay2",
+  "version": "0.1",
+  "author": "Doug Torrance",
+  "description": "highlight.js syntax definition for Macaulay2",
+  "main": "src/languages/macaulay2.js",
   "scripts": {
     "test": "jasmine"
   },
   "files": [
-    "src/languages/your-language.js"
+    "src/languages/macaulay2.js"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jf990/highlightjs-language-template.git"
+    "url": "https://github.com/d-torrance/highlightjs-macaulay2.git"
   },
   "keywords": [
-    "your-language",
+    "macaulay2",
     "javascript",
     "highlight",
     "highlight.js",
@@ -25,9 +25,9 @@
   ],
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/jf990/highlightjs-language-template/issues"
+    "url": "https://github.com/d-torrance/highlightjs-macaulay2/issues"
   },
-  "homepage": "https://github.com/jf990/highlightjs-language-template",
+  "homepage": "https://github.com/d-torrance/highlightjs-macaulay2",
   "devDependencies": {
     "highlight.js": "^10.7.1",
     "jasmine": "^3.7.0"
