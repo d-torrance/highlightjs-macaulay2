@@ -4,9 +4,10 @@
 software system devoted to supporting research in algebraic geometry
 and commutative algebra.
 
-**Built with**
+[highlight.js](https://highlightjs.org/) is a JavaScript syntax
+highlighter with language auto-detection and zero dependencies.
 
-* [highlightjs](https://github.com/highlightjs/highlight.js)
+See an [example](https://www.friedcheese.org/highlightjs-macaulay2/).
 
 ## Usage
 
