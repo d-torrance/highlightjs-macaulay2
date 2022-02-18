@@ -18,20 +18,11 @@ Load the module after loading Highlight.js.  Use the minified version found in t
 
 ```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
-<script type="text/javascript" src="/path/to/your-language.min.js"></script>
+<script type="text/javascript" src="/path/to/macaulay2.min.js"></script>
 <script type="text/javascript">
   hljs.highlightAll();
 </script>
 ```
-
-### Using directly from the UNPKG CDN
-
-```html
-<script type="text/javascript"
-  src="https://unpkg.com/highlightjs-your-language@0.0.1/dist/your-language.min.js"></script>
-```
-
-- More info: <https://unpkg.com>
 
 ### With Node or another build system
 
@@ -39,9 +30,9 @@ If you're using Node / Webpack / Rollup / Browserify, etc., require the language
 
 ```javascript
 var hljs = require('highlight.js');
-var hljsYourLanguage = require('highlightjs-your-language');
+var hljsYourLanguage = require('highlightjs-macaulay2');
 
-hljs.registerLanguage("your-language", hljsYourLanguage);
+hljs.registerLanguage("macaulay2", hljsYourLanguage);
 hljs.highlightAll();
 ```
 
@@ -65,4 +56,4 @@ Contributions are what make the open source community such an amazing place to b
 
 - The official site for the Highlight.js library is <https://highlightjs.org/>.
 - The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
-- Learn more about your-language: <https://faculty.math.illinois.edu/Macaulay2/>
+- Learn more about Macaulay2: <https://faculty.math.illinois.edu/Macaulay2/>
