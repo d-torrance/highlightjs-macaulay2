@@ -23,6 +23,15 @@ Load the module after loading Highlight.js.  Use the minified version found in t
 </script>
 ```
 
+### Using directly from the UNPKG CDN
+
+```html
+<script type="text/javascript"
+  src="https://unpkg.com/highlightjs-macaulay2/dist/macaulay2.min.js"></script>
+```
+
+- More info: <https://unpkg.com>
+
 ### With Node or another build system
 
 If you're using Node / Webpack / Rollup / Browserify, etc., require the language module, then register it with Highlight.js.
