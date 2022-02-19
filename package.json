@@ -5,6 +5,7 @@
   "description": "highlight.js syntax definition for Macaulay2",
   "main": "src/languages/macaulay2.js",
   "files": [
+    "dist",
     "src/languages/macaulay2.js"
   ],
   "repository": {
