@@ -42,6 +42,54 @@ hljs.registerLanguage("macaulay2", macaulay2);
 hljs.highlightAll();
 ```
 
+### Building and testing
+
+To build `dist/macaulay2.min.js` yourself, run:
+
+```
+npm run build
+```
+
+Or, if you have already cloned the highlight.js repository:
+
+```
+npm run build -- HLJSDIR=/path/to/highlight.js
+```
+
+To build a minimal version, with highlight.js, the Macaulay2 language,
+and the default highlight.js style (without the background color), run:
+
+```
+npm install
+npm run bundle
+```
+
+To update the Macaulay2 language keywords, e.g., after a new release of
+Macaulay2, run:
+
+```
+npm run update
+```
+
+Or, if you have already cloned the Macaulay2 repository:
+
+```
+npm run update -- M2DIR=/path/to/M2
+```
+
+To run the test suite, run:
+
+```
+npm run test
+```
+
+Or, as above, if you already have the highlight.js repository cloned:
+
+```
+npm run test -- HLJSDIR=/path/to/highlight.js
+```
+
+
 ## License
 
 Distributed under the [BSD 3-Clause License](./LICENSE). See `LICENSE` for more information.
