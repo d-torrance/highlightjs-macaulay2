@@ -10,15 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: build
+      - name: Build
         run: |
           npm install
           npm run build
-      - name: test
+      - name: Test
         run: npm run test
-      - name: bundle
+      - name: Build bundle
         run: npm run bundle
-      - name: update
+      - name: Update language
         run: |
           sudo add-apt-repository -y ppa:macaulay2/macaulay2
           sudo apt-get -y install macaulay2
