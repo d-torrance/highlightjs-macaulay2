@@ -1,5 +1,10 @@
 # highlightjs-macaulay2
 
+[![npm version](https://badge.fury.io/js/highlightjs-macaulay2.svg)](
+https://badge.fury.io/js/highlightjs-macaulay2)
+![github workflow](
+https://github.com/d-torrance/highlightjs-macaulay2/actions/workflows/build.yml/badge.svg)
+
 [Macaulay2](https://faculty.math.illinois.edu/Macaulay2/) is a
 software system devoted to supporting research in algebraic geometry
 and commutative algebra.
