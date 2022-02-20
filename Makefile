@@ -11,3 +11,5 @@ $(HLJSDIR):
 
 clean:
 	rm -f $(HLSDIR)/extra/highlightjs-macaulay2
+
+.PHONY: all clean
