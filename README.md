@@ -56,8 +56,9 @@ Or, if you have already cloned the highlight.js repository:
 npm run build -- HLJSDIR=/path/to/highlight.js
 ```
 
-To build a minimal version, with highlight.js, the Macaulay2 language,
-and the default highlight.js style (without the background color), run:
+To build a minimal version, `dist/highlight.js`, bundling highlight.js, the
+Macaulay2 language, and the default highlight.js style (without the background
+color), run:
 
 ```
 npm install
