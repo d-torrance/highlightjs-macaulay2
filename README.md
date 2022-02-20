@@ -38,9 +38,9 @@ If you're using Node / Webpack / Rollup / Browserify, etc., require the language
 
 ```javascript
 var hljs = require('highlight.js');
-var hljsYourLanguage = require('highlightjs-macaulay2');
+var macaulay2 = require('highlightjs-macaulay2');
 
-hljs.registerLanguage("macaulay2", hljsYourLanguage);
+hljs.registerLanguage("macaulay2", macaulay2);
 hljs.highlightAll();
 ```
 
