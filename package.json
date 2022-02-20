@@ -11,7 +11,7 @@
     "update": "make update"
   },
   "files": [
-    "dist",
+    "dist/macaulay2.min.js",
     "src/languages/macaulay2.js"
   ],
   "repository": {
