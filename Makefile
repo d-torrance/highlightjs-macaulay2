@@ -14,7 +14,8 @@ $(HLJSDIR)/extra/highlightjs-macaulay2: $(HLJSDIR)
 	ln -s $(CURDIR) $@
 
 $(HLJSDIR):
-	cd $(TMPDIR) && git clone https://github.com/highlightjs/highlight.js
+	cd $(TMPDIR) && git clone --depth 1 \
+		https://github.com/highlightjs/highlight.js
 
 update: $(M2DIR)
 	mkdir -p tmp
