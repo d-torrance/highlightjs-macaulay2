@@ -21,5 +21,5 @@ jobs:
       - name: Update language
         run: |
           sudo add-apt-repository -y ppa:macaulay2/macaulay2
-          sudo apt-get -y install macaulay2
+          sudo apt-get -y --no-install-recommends install macaulay2
           npm run update
