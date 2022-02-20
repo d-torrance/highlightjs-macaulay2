@@ -42,7 +42,7 @@ hljs.registerLanguage("macaulay2", macaulay2);
 hljs.highlightAll();
 ```
 
-### Building and testing
+## Building and testing
 
 To build `dist/macaulay2.min.js` yourself, run:
 
@@ -71,7 +71,8 @@ Macaulay2, run:
 npm run update
 ```
 
-Or, if you have already cloned the Macaulay2 repository:
+Note that you must have Macaulay2 installed for this to work.  If you have
+already cloned the Macaulay2 repository:
 
 ```
 npm run update -- M2DIR=/path/to/M2
