@@ -5,7 +5,8 @@
   "description": "highlight.js syntax definition for Macaulay2",
     "main": "src/languages/macaulay2.js",
   "scripts": {
-    "build": "make"
+    "build": "make",
+    "test": "make check"
   },
   "files": [
     "dist",
