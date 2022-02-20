@@ -2,14 +2,20 @@ TMPDIR := $(shell mktemp -d)
 HLJSDIR = $(TMPDIR)/highlight.js
 
 
-all: $(HIGHLIGHTJSDIR)
-	ln -s $(CURDIR) $(HLJSDIR)/extra/highlightjs-macaulay2
+all: $(HLJSDIR)/extra/highlightjs-macaulay2
 	cd $(HLJSDIR) && npm install && node ./tools/build.js -t cdn
 
+check: $(HLJSDIR)/extra/highlightjs-macaulay2
+	cd $(HLJSDIR) && npm install && node ./tools/build.js -t node && \
+		ONLY_EXTRA=true npm run test-markup
+
+$(HLJSDIR)/extra/highlightjs-macaulay2: $(HLJSDIR)
+	ln -s $(CURDIR) $@
+
 $(HLJSDIR):
-	cd $(dir $@) && git clone https://github.com/highlightjs/highlight.js
+	cd $(TMPDIR) && git clone https://github.com/highlightjs/highlight.js
 
 clean:
 	rm -f $(HLSDIR)/extra/highlightjs-macaulay2
 
-.PHONY: all clean
+.PHONY: all check clean
