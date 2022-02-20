@@ -8,3 +8,6 @@ all: $(HIGHLIGHTJSDIR)
 
 $(HLJSDIR):
 	cd $(dir $@) && git clone https://github.com/highlightjs/highlight.js
+
+clean:
+	rm -f $(HLSDIR)/extra/highlightjs-macaulay2
