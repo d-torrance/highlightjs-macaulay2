@@ -1,8 +1,10 @@
-HIGHLIGHTJSDIR := $(shell mktemp -d)/highlight.js
+TMPDIR := $(shell mktemp -d)
+HLJSDIR = $(TMPDIR)/highlight.js
+
 
 all: $(HIGHLIGHTJSDIR)
-	ln -s $(CURDIR) $(HIGHLIGHTJSDIR)/extra/highlightjs-macaulay2
-	cd $(HIGHLIGHTJSDIR) && npm install && node ./tools/build.js -t cdn
+	ln -s $(CURDIR) $(HLJSDIR)/extra/highlightjs-macaulay2
+	cd $(HLJSDIR) && npm install && node ./tools/build.js -t cdn
 
-$(HIGHLIGHTJSDIR):
+$(HLJSDIR):
 	cd $(dir $@) && git clone https://github.com/highlightjs/highlight.js
