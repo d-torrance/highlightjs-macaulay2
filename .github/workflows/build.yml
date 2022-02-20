@@ -1,0 +1,22 @@
+name: build and test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions@checkout@v2
+      - name: build
+        run: |
+          npm install
+          bpm run build
+      - name: test
+        run: npm run test
+      - name: bundle
+        run: npm run bundle
+      - name: update
+        run: npm run update
