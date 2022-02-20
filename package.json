@@ -3,7 +3,10 @@
   "version": "0.1.1",
   "author": "Doug Torrance",
   "description": "highlight.js syntax definition for Macaulay2",
-  "main": "src/languages/macaulay2.js",
+    "main": "src/languages/macaulay2.js",
+  "scripts": {
+    "build": "make"
+  },
   "files": [
     "dist",
     "src/languages/macaulay2.js"
