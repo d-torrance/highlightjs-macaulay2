@@ -18,9 +18,7 @@ Load the module after loading Highlight.js.  Use the minified version found in t
 ```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
 <script type="text/javascript" src="/path/to/macaulay2.min.js"></script>
-<script type="text/javascript">
-  hljs.highlightAll();
-</script>
+<script type="text/javascript">hljs.highlightAll();</script>
 ```
 
 ### Using directly from the UNPKG CDN
