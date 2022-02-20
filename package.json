@@ -3,10 +3,11 @@
   "version": "0.1.1",
   "author": "Doug Torrance",
   "description": "highlight.js syntax definition for Macaulay2",
-    "main": "src/languages/macaulay2.js",
+  "main": "src/languages/macaulay2.js",
   "scripts": {
     "build": "make",
-    "test": "make check"
+    "test": "make check",
+    "bundle": "webpack"
   },
   "files": [
     "dist",
@@ -29,5 +30,14 @@
   "bugs": {
     "url": "https://github.com/d-torrance/highlightjs-macaulay2/issues"
   },
-  "homepage": "https://github.com/d-torrance/highlightjs-macaulay2"
+  "homepage": "https://github.com/d-torrance/highlightjs-macaulay2",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "highlight.js": "^11.4.0"
+  }
 }
