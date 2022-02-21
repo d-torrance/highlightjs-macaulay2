@@ -25,7 +25,7 @@ update: $(M2DIR)
 
 $(M2DIR):
 	cd $(TMPDIR) && git clone --depth 1 --filter=blob:none --sparse \
-		https://github.com/d-torrance/M2 -b highlightjs
+		https://github.com/Macaulay2/M2 -b development
 	cd $(M2DIR) && git sparse-checkout set M2/Macaulay2/editors
 
 clean:
