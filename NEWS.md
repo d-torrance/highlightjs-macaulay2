@@ -1,3 +1,8 @@
+version 0.1.6
+-------------
+* Release date: 2022-12-14
+* Update for Macaulay2 1.21.
+
 version 0.1.5
 -------------
 * Release date: 2022-05-16
