@@ -29,6 +29,6 @@ $(M2DIR):
 	cd $(M2DIR) && git sparse-checkout set M2/Macaulay2/editors
 
 clean:
-	rm -f $(HLSDIR)/extra/highlightjs-macaulay2
+	rm -f $(HLJSDIR)/extra/highlightjs-macaulay2
 
 .PHONY: all check clean update
