@@ -1,3 +1,8 @@
+version 0.1.8
+-------------
+* Release date: 2023-06-16
+* Distribute ECMAScript module.
+
 version 0.1.7
 -------------
 * Release date: 2023-06-15
