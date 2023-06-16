@@ -12,6 +12,7 @@
   },
   "files": [
     "dist/macaulay2.min.js",
+    "dist/macaulay2.es.min.js",
     "src/languages/macaulay2.js"
   ],
   "repository": {
