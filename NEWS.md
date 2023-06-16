@@ -1,3 +1,8 @@
+version 0.1.9
+-------------
+* Release date: 2023-06-16
+* Include ECMAScript in npm tarball.
+
 version 0.1.8
 -------------
 * Release date: 2023-06-16
