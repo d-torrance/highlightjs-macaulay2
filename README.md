@@ -5,7 +5,7 @@ https://badge.fury.io/js/highlightjs-macaulay2)
 [![github workflow](
 https://github.com/d-torrance/highlightjs-macaulay2/actions/workflows/build.yml/badge.svg)](https://github.com/d-torrance/highlightjs-macaulay2/actions/workflows/build.yml)
 
-[Macaulay2](https://faculty.math.illinois.edu/Macaulay2/) is a
+[Macaulay2](https://macaulay2.com) is a
 software system devoted to supporting research in algebraic geometry
 and commutative algebra.
 
@@ -117,4 +117,4 @@ Contributions are what make the open source community such an amazing place to b
 
 - The official site for the Highlight.js library is <https://highlightjs.org/>.
 - The Highlight.js GitHub project: <https://github.com/highlightjs/highlight.js>
-- Learn more about Macaulay2: <https://faculty.math.illinois.edu/Macaulay2/>
+- Learn more about Macaulay2: <https://macaulay2.com>
