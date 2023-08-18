@@ -1,3 +1,8 @@
+version 0.1.10
+--------------
+* Release date: 2023-08-17
+* Update Macaulay2 webpage URL.
+
 version 0.1.9
 -------------
 * Release date: 2023-06-16
