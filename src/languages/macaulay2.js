@@ -21,7 +21,7 @@ export default function(hljs) {
       hljs.COMMENT("-\\*", "\\*-")
     ],
 
-    // Auto-generated for Macaulay2-1.23. Do not modify this file manually.
+    // Auto-generated for Macaulay2-1.24.05. Do not modify this file manually.
     // see M2/Macaulay2/editors/make-M2-symbols.m2 in the Macaulay2 source
     // https://github.com/Macaulay2/M2
 
@@ -52,6 +52,7 @@ export default function(hljs) {
 	"step",
 	"symbol",
 	"then",
+	"threadLocal",
 	"threadVariable",
 	"throw",
 	"time",
@@ -540,6 +541,7 @@ export default function(hljs) {
 	"getChangeMatrix",
 	"getenv",
 	"getGlobalSymbol",
+	"getIOThreadMode",
 	"getNetFile",
 	"getNonUnit",
 	"getPrimeWithRootOfUnity",
@@ -822,6 +824,7 @@ export default function(hljs) {
 	"pad",
 	"pager",
 	"pairs",
+	"parallelApply",
 	"parent",
 	"part",
 	"partition",
@@ -1065,6 +1068,7 @@ export default function(hljs) {
 	"uniform",
 	"uninstallAllPackages",
 	"uninstallPackage",
+	"union",
 	"unique",
 	"uniquePermutations",
 	"unsequence",
@@ -1440,6 +1444,7 @@ export default function(hljs) {
 	"MonomialOrder",
 	"Monomials",
 	"MonomialSize",
+	"MultigradedBGG",
 	"MultiGradedRationalMap",
 	"MultiplicitySequence",
 	"MultiplierIdeals",
@@ -1614,6 +1619,7 @@ export default function(hljs) {
 	"SchurComplexes",
 	"SchurFunctors",
 	"SchurRings",
+	"SchurVeronese",
 	"scriptCommandLine",
 	"SCSCP",
 	"SectionRing",
@@ -1709,6 +1715,7 @@ export default function(hljs) {
 	"Trim",
 	"Triplets",
 	"Tropical",
+	"TropicalToric",
 	"true",
 	"Truncate",
 	"Truncations",
@@ -1745,6 +1752,7 @@ export default function(hljs) {
 	"viewHelp",
 	"VirtualResolutions",
 	"Visualize",
+	"VNumber",
 	"WebApp",
 	"Weights",
 	"WeylAlgebra",
