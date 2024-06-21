@@ -54,7 +54,7 @@ o2 : Ideal of R
 If you're using Node / Webpack / Rollup / Browserify, etc., import the language module, then register it with Highlight.js.
 
 ```javascript
-import hljs from 'highlight.js'; // or 'highlight.js/lib/core'
+import hljs from 'highlight.js'; // or 'highlight.js/lib/core' to avoid loading other languagse
 import macaulay2 from 'highlightjs-macaulay2';
 
 hljs.registerLanguage("macaulay2", macaulay2);
