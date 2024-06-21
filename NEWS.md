@@ -1,3 +1,8 @@
+version 0.1.13
+--------------
+* Release date: 2024-06-20
+* Add Dependabot support and update dependencies.
+
 version 0.1.12
 --------------
 * Release date: 2024-05-14
