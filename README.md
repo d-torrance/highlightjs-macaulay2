@@ -51,11 +51,11 @@ o2 : Ideal of R
 
 ### With Node or another build system
 
-If you're using Node / Webpack / Rollup / Browserify, etc., require the language module, then register it with Highlight.js.
+If you're using Node / Webpack / Rollup / Browserify, etc., import the language module, then register it with Highlight.js.
 
 ```javascript
-var hljs = require('highlight.js');
-var macaulay2 = require('highlightjs-macaulay2');
+import hljs from 'highlight.js'; // or 'highlight.js/lib/core'
+import macaulay2 from 'highlightjs-macaulay2';
 
 hljs.registerLanguage("macaulay2", macaulay2);
 hljs.highlightAll();
