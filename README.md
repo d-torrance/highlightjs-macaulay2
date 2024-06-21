@@ -61,15 +61,6 @@ Or, if you have already cloned the highlight.js repository:
 npm run build -- HLJSDIR=/path/to/highlight.js
 ```
 
-To build a minimal version, `dist/highlight.js`, bundling highlight.js, the
-Macaulay2 language, and the default highlight.js style (without the background
-color), run:
-
-```
-npm install
-npm run bundle
-```
-
 To update the Macaulay2 language keywords, e.g., after a new release of
 Macaulay2, run:
 
