@@ -21,7 +21,7 @@ Include the Highlight.js library in your webpage or Node app, then load this mod
 Load the module after loading Highlight.js.  Use the minified version found in the `dist` directory.  This module is just a CDN build of the language, so it will register itself as the JavaScript is loaded.
 
 ```html
-<link rel="/path/to/styles/default.min.css">
+<link rel="/path/to/styles/default.min.css"> // or another highlight.js theme
 <script src="/path/to/highlight.min.js"></script>
 <script src="/path/to/macaulay2.min.js"></script>
 <script>hljs.highlightAll();</script>
