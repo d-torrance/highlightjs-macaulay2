@@ -21,16 +21,30 @@ Include the Highlight.js library in your webpage or Node app, then load this mod
 Load the module after loading Highlight.js.  Use the minified version found in the `dist` directory.  This module is just a CDN build of the language, so it will register itself as the JavaScript is loaded.
 
 ```html
-<script type="text/javascript" src="/path/to/highlight.min.js"></script>
-<script type="text/javascript" src="/path/to/macaulay2.min.js"></script>
-<script type="text/javascript">hljs.highlightAll();</script>
+<link rel="/path/to/styles/default.min.css">
+<script src="/path/to/highlight.min.js"></script>
+<script src="/path/to/macaulay2.min.js"></script>
+<script>hljs.highlightAll();</script>
+<pre><code class="language-macaulay2">
+i1 : R = QQ[x,y,z,w]
+
+o1 = R
+
+o1 : PolynomialRing
+
+i2 : I = monomialCurveIdeal(R, {1, 2, 3})
+
+             2                    2
+o2 = ideal (z  - y*w, y*z - x*w, y  - x*z)
+
+o2 : Ideal of R
+</code></pre>
 ```
 
 ### Using directly from the UNPKG CDN
 
 ```html
-<script type="text/javascript"
-  src="https://unpkg.com/highlightjs-macaulay2/dist/macaulay2.min.js"></script>
+<script src="https://unpkg.com/highlightjs-macaulay2/dist/macaulay2.min.js"></script>
 ```
 
 - More info: <https://unpkg.com>
