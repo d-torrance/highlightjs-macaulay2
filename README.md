@@ -90,6 +90,8 @@ o2 : Ideal of R
 </section>
 ```
 
+Then open `index.html` in your favorite browser.  It should look like [this](https://www.friedcheese.org/reveal.js/).
+
 ## Building and testing
 
 To build `dist/macaulay2.min.js` yourself, run:
