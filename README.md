@@ -61,6 +61,37 @@ hljs.registerLanguage("macaulay2", macaulay2);
 hljs.highlightAll();
 ```
 
+### With reveal.js
+
+The popular presentation framework [reveal.js](https://revealjs.com/) uses highlight.js for syntax highlighting.
+
+#### Quick start
+
+To start using reveal.js with highlight.js immediately, download and unzip [this slightly modified copy of reveal.js](https://github.com/d-torrance/reveal.js/archive/refs/heads/macaulay2.zip).  It adds the Macaulay2 support to the syntax highlighting plugin.
+
+Then edit the file `index.html` with your Macaulay2 code, e.g.,:
+
+```html
+<section>
+The twisted cubic in Macaulay2:
+
+<pre><code class="hljs macaulay2">
+i1 : R = QQ[x,y,z,w]
+
+o1 = R
+
+o1 : PolynomialRing
+
+i2 : I = monomialCurveIdeal(R, {1,2,3})
+
+             2                    2
+o2 = ideal (z  - y*w, y*z - x*w, y  - x*z)
+
+o2 : Ideal of R
+</code></pre>
+</section>
+```
+
 ## Building and testing
 
 To build `dist/macaulay2.min.js` yourself, run:
