@@ -65,9 +65,7 @@ hljs.highlightAll();
 
 The popular presentation framework [reveal.js](https://revealjs.com/) uses highlight.js for syntax highlighting.
 
-#### Quick start
-
-To start using reveal.js with highlight.js immediately, download and unzip [this slightly modified copy of reveal.js](https://github.com/d-torrance/reveal.js/archive/refs/heads/macaulay2.zip).  It adds the Macaulay2 support to the syntax highlighting plugin.
+To start using reveal.js with highlight.js, download and unzip [this slightly modified copy of reveal.js](https://github.com/d-torrance/reveal.js/archive/refs/heads/macaulay2.zip).  It adds Macaulay2 support to the syntax highlighting plugin.
 
 Then edit the file `index.html` with your Macaulay2 code, e.g.,:
 
