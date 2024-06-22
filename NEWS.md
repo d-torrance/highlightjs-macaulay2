@@ -1,3 +1,11 @@
+version 0.2.0
+-------------
+* Release date: 2024-06-21
+* Remove webpack-bundled version.  It was an artifact from when we used
+  highlight.js in Macaulay2's html documentation.
+* Documentation improvements, including information about using Macaulay2 with
+  reveal.js.
+
 version 0.1.13
 --------------
 * Release date: 2024-06-20
