@@ -1,7 +1,7 @@
 TMPDIR := $(shell mktemp -d)
 HLJSDIR = $(TMPDIR)/highlight.js
 M2DIR = $(TMPDIR)/M2
-
+BRANCH = master
 
 all: $(HLJSDIR)/extra/highlightjs-macaulay2
 	cd $(HLJSDIR) && npm install && node ./tools/build.js -t cdn
@@ -25,7 +25,7 @@ update: $(M2DIR)
 
 $(M2DIR):
 	cd $(TMPDIR) && git clone --depth 1 --filter=blob:none --sparse \
-		https://github.com/Macaulay2/M2
+		https://github.com/Macaulay2/M2 -b $(BRANCH)
 	cd $(M2DIR) && git sparse-checkout set M2/Macaulay2/editors
 
 clean:
