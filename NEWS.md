@@ -1,3 +1,10 @@
+version 0.2.2
+-------------
+* Release date: 2024-09-08
+* Change "make update" so that it defaults to the master branch.  It is
+  possible to specify a branch using the BRANCH variable, e.g.,
+  "make update BRANCH=development".
+
 version 0.2.1
 -------------
 * Release date: 2024-07-08
