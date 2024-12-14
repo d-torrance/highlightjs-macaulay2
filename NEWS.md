@@ -1,3 +1,8 @@
+version 0.2.4
+-------------
+* Release date: 2024-12-14
+* Build using highlight.js 11.11.0
+
 version 0.2.3
 -------------
 * Release date: 2024-10-31
