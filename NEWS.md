@@ -1,3 +1,8 @@
+version 0.3.0
+-------------
+* Release date: 2025-03-27
+* Add declaration file for TypeScript support
+
 version 0.2.5
 -------------
 * Release date: 2024-12-27
