@@ -4,6 +4,7 @@
   "author": "Doug Torrance",
   "description": "highlight.js syntax definition for Macaulay2",
   "main": "src/languages/macaulay2.js",
+  "types": "types/highlightjs-macaulay2.d.ts",
   "scripts": {
     "build": "make",
     "test": "make check",
@@ -12,7 +13,8 @@
   "files": [
     "dist/macaulay2.min.js",
     "dist/macaulay2.es.min.js",
-    "src/languages/macaulay2.js"
+    "src/languages/macaulay2.js",
+    "types/highlightjs-macaulay2.d.ts"
   ],
   "repository": {
     "type": "git",
