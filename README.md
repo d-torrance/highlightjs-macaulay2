@@ -113,13 +113,6 @@ Macaulay2, run:
 npm run update
 ```
 
-Note that you must have Macaulay2 installed for this to work.  If you have
-already cloned the Macaulay2 repository:
-
-```
-npm run update -- M2DIR=/path/to/M2
-```
-
 To run the test suite, run:
 
 ```
