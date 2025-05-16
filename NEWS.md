@@ -1,3 +1,9 @@
+version 0.4.0
+-------------
+* Release date: 2025-05-16
+* Use new generateGrammar function in Style package to generate grammar.
+* Update for Macaulay2 1.25.05
+
 version 0.3.0
 -------------
 * Release date: 2025-03-27
