@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-macaulay2",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "author": "Doug Torrance",
   "description": "highlight.js syntax definition for Macaulay2",
   "main": "src/languages/macaulay2.js",

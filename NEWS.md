@@ -1,3 +1,8 @@
+version 0.4.2
+-------------
+* Release date: 2026-01-04
+* Add "m2" alias
+
 version 0.4.1
 -------------
 * Release date: 2025-11-16
