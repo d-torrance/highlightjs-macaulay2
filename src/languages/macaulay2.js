@@ -9,6 +9,7 @@ Category: scientific
 export default function(hljs) {
   return {
     name: "Macaulay2",
+    aliases: ["macaulay2", "m2"],
     contains: [
       hljs.NUMBER_MODE,
       hljs.QUOTE_STRING_MODE,
