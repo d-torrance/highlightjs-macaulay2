@@ -1,9 +1,7 @@
 # highlightjs-macaulay2
 
-[![npm version](https://badge.fury.io/js/highlightjs-macaulay2.svg)](
-https://badge.fury.io/js/highlightjs-macaulay2)
-[![github workflow](
-https://github.com/d-torrance/highlightjs-macaulay2/actions/workflows/build.yml/badge.svg)](https://github.com/d-torrance/highlightjs-macaulay2/actions/workflows/build.yml)
+[![npm version](https://badge.fury.io/js/highlightjs-macaulay2.svg)](https://badge.fury.io/js/highlightjs-macaulay2)
+[![github workflow](https://github.com/d-torrance/highlightjs-macaulay2/actions/workflows/build.yml/badge.svg)](https://github.com/d-torrance/highlightjs-macaulay2/actions/workflows/build.yml)
 
 [Macaulay2](https://macaulay2.com) is a
 software system devoted to supporting research in algebraic geometry
@@ -18,13 +16,16 @@ Include the Highlight.js library in your webpage or Node app, then load this mod
 
 ### Static website
 
-Load the module after loading Highlight.js.  Use the minified version found in the `dist` directory.  This module is just a CDN build of the language, so it will register itself as the JavaScript is loaded.
+Load the module after loading Highlight.js. Use the minified version found in the `dist` directory. This module is just a CDN build of the language, so it will register itself as the JavaScript is loaded.
 
 ```html
-<link rel="/path/to/styles/default.min.css"> <!-- or another highlight.js theme -->
+<link rel="/path/to/styles/default.min.css" />
+<!-- or another highlight.js theme -->
 <script src="/path/to/highlight.min.js"></script>
 <script src="/path/to/macaulay2.min.js"></script>
-<script>hljs.highlightAll();</script>
+<script>
+  hljs.highlightAll();
+</script>
 <pre><code class="language-macaulay2">
 i1 : R = QQ[x,y,z,w]
 
@@ -54,8 +55,8 @@ o2 : Ideal of R
 If you're using Node / Webpack / Rollup / Browserify, etc., import the language module, then register it with Highlight.js.
 
 ```javascript
-import hljs from 'highlight.js'; // or 'highlight.js/lib/core' to not load other languages
-import macaulay2 from 'highlightjs-macaulay2';
+import hljs from "highlight.js"; // or 'highlight.js/lib/core' to not load other languages
+import macaulay2 from "highlightjs-macaulay2";
 
 hljs.registerLanguage("macaulay2", macaulay2);
 hljs.highlightAll();
@@ -65,15 +66,15 @@ hljs.highlightAll();
 
 The popular presentation framework [reveal.js](https://revealjs.com/) uses highlight.js for syntax highlighting.
 
-To start including Macaulay2 code in your reveal.js presentations, download and unzip [this slightly modified copy of reveal.js](https://github.com/d-torrance/reveal.js/archive/refs/heads/macaulay2.zip).  It adds Macaulay2 support to the syntax highlighting plugin.
+To start including Macaulay2 code in your reveal.js presentations, download and unzip [this slightly modified copy of reveal.js](https://github.com/d-torrance/reveal.js/archive/refs/heads/macaulay2.zip). It adds Macaulay2 support to the syntax highlighting plugin.
 
 Then edit the file `index.html` with your Macaulay2 code, e.g.,:
 
 ```html
 <section>
-The twisted cubic in Macaulay2:
+  The twisted cubic in Macaulay2:
 
-<pre><code class="hljs macaulay2">
+  <pre><code class="hljs macaulay2">
 i1 : R = QQ[x,y,z,w]
 
 o1 = R
@@ -90,7 +91,7 @@ o2 : Ideal of R
 </section>
 ```
 
-Then open `index.html` in your favorite browser.  It should look like [this](https://d-torrance.github.io/reveal.js/).
+Then open `index.html` in your favorite browser. It should look like [this](https://d-torrance.github.io/reveal.js/).
 
 ## Building and testing
 
@@ -124,7 +125,6 @@ Or, as above, if you already have the highlight.js repository cloned:
 ```
 npm run test -- HLJSDIR=/path/to/highlight.js
 ```
-
 
 ## License
 
