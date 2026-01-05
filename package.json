@@ -39,6 +39,7 @@
     "highlight.js": "^11.11.1"
   },
   "devDependencies": {
-    "prettier": "^3.7.4"
+    "prettier": "^3.7.4",
+    "prettylint": "^2.0.0"
   }
 }
