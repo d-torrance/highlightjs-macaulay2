@@ -9,7 +9,8 @@
     "build": "make",
     "test": "make check",
     "update": "make update",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "lint": "prettylint . && eslint ."
   },
   "files": [
     "dist/macaulay2.min.js",
