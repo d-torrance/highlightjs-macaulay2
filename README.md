@@ -97,34 +97,24 @@ Then open `index.html` in your favorite browser. It should look like [this](http
 
 To build `dist/macaulay2.min.js` yourself, run:
 
-```
-npm run build
-```
+    npm run build
 
 Or, if you have already cloned the highlight.js repository:
 
-```
-npm run build -- HLJSDIR=/path/to/highlight.js
-```
+    npm run build -- HLJSDIR=/path/to/highlight.js
 
 To update the Macaulay2 language keywords, e.g., after a new release of
 Macaulay2, run:
 
-```
-npm run update
-```
+    npm run update
 
 To run the test suite, run:
 
-```
-npm run test
-```
+    npm run test
 
 Or, as above, if you already have the highlight.js repository cloned:
 
-```
-npm run test -- HLJSDIR=/path/to/highlight.js
-```
+    npm run test -- HLJSDIR=/path/to/highlight.js
 
 ## License
 
