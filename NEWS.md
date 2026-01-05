@@ -1,3 +1,8 @@
+## version 0.4.3
+
+- Release date: 2026-01-04
+- Fix type of default export in TypeScript declaration file
+
 ## version 0.4.2
 
 - Release date: 2026-01-04
