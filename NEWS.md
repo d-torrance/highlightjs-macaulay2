@@ -1,3 +1,8 @@
+## version 0.5.0
+
+- Release date: 2026-01-12
+- Stop requiring that we clone the highlight.js repo for building.
+
 ## version 0.4.3
 
 - Release date: 2026-01-04
