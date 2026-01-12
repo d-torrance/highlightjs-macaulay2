@@ -7,6 +7,7 @@
   "types": "types/highlightjs-macaulay2.d.ts",
   "scripts": {
     "build": "node build.mjs",
+    "prepack": "npm run build",
     "test": "make check",
     "update": "make update",
     "format": "prettier --write .",
