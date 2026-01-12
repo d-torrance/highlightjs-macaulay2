@@ -43,6 +43,6 @@ const terserOptions = {
 const miniIife = await minify(iife, terserOptions);
 const miniEsm = await minify(esm, terserOptions);
 
-mkdir("dist");
+mkdir("dist", { recursive: true });
 writeFile("dist/macaulay2.min.js", miniIife.code);
 writeFile("dist/macaulay2.es.min.js", miniEsm.code);
