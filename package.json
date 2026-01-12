@@ -6,7 +6,7 @@
   "main": "src/languages/macaulay2.js",
   "types": "types/highlightjs-macaulay2.d.ts",
   "scripts": {
-    "build": "make",
+    "build": "node build.mjs",
     "test": "make check",
     "update": "make update",
     "format": "prettier --write .",
@@ -46,8 +46,11 @@
     "eslint": "^9.39.2",
     "globals": "^17.0.0",
     "jiti": "^2.6.1",
+    "node": "^24.12.0",
     "prettier": "^3.7.4",
     "prettylint": "^2.0.0",
+    "rollup": "^4.55.1",
+    "terser": "^5.44.1",
     "typescript-eslint": "^8.51.0"
   }
 }
