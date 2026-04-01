@@ -1,3 +1,8 @@
+## version 0.5.1
+
+- Release date: 2026-04-01
+- Update some JavaScript dependencies
+
 ## version 0.5.0
 
 - Release date: 2026-01-12
