@@ -93,7 +93,7 @@ o2 : Ideal of R
 
 Then open `index.html` in your favorite browser. It should look like [this](https://d-torrance.github.io/reveal.js/).
 
-Alternatively, if you would like to add Macaulay2 syntax highlighting to an existing reveal.js project, then you can use the `beforeHighlight` callback to register it.  See <https://revealjs.com/code/#the-highlight.js-api-%26-beforehighlight-4.2.0>.
+Alternatively, if you would like to add Macaulay2 syntax highlighting to an existing reveal.js project, then you can use the `beforeHighlight` callback to register it. See <https://revealjs.com/code/#the-highlight.js-api-%26-beforehighlight-4.2.0>.
 
 ## Building and testing
 
