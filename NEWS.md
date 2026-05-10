@@ -1,3 +1,9 @@
+## version 0.5.2
+
+- Release date: 2026-05-10
+- Update for Macaulay2 1.26.05
+- Update some JavaScript dependencies
+
 ## version 0.5.1
 
 - Release date: 2026-04-01
