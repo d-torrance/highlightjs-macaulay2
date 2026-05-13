@@ -1,3 +1,11 @@
+## version 0.6.0
+
+- Release date: 2026-05-13
+- Fix TypeScript declaration file to not use module augmentation syntax
+- Fix build script to properly await file write operations
+- Use highlight.js as a peer dependency
+- Fail CI when the generated grammar is out of date
+
 ## version 0.5.2
 
 - Release date: 2026-05-10
