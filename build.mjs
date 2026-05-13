@@ -43,6 +43,8 @@ const terserOptions = {
 const miniIife = await minify(iife, terserOptions);
 const miniEsm = await minify(esm, terserOptions);
 
-mkdir("dist", { recursive: true });
-writeFile("dist/macaulay2.min.js", miniIife.code);
-writeFile("dist/macaulay2.es.min.js", miniEsm.code);
+await mkdir("dist", { recursive: true });
+await Promise.all([
+  writeFile("dist/macaulay2.min.js", miniIife.code),
+  writeFile("dist/macaulay2.es.min.js", miniEsm.code),
+]);
