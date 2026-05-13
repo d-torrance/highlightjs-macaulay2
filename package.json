@@ -29,8 +29,7 @@
     "highlight",
     "highlight.js",
     "highlightjs",
-    "syntax",
-    "template"
+    "syntax"
   ],
   "license": "BSD-3-Clause",
   "bugs": {
