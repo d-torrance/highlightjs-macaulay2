@@ -1,3 +1,9 @@
+## version 0.6.1
+
+- Release date: 2026-05-30
+- Add test to verify that the TypeScript declaration file is compatible with
+  highlight.js.
+
 ## version 0.6.0
 
 - Release date: 2026-05-13
