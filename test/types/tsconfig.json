@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noEmit": true,
+    "paths": {
+      "highlightjs-macaulay2": ["../../types/highlightjs-macaulay2.d.ts"]
+    }
+  },
+  "include": ["./**/*.ts"]
+}

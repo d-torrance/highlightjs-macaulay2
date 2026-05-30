@@ -8,7 +8,8 @@
   "scripts": {
     "build": "node build.mjs",
     "prepack": "npm run build",
-    "test": "make check",
+    "test": "npm run typecheck && make check",
+    "typecheck": "tsc --project test/types",
     "update": "make update",
     "format": "prettier --write .",
     "lint": "prettylint . && eslint ."
