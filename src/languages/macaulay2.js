@@ -1,6 +1,6 @@
 /*
 Language: Macaulay2
-Author: Doug Torrance <dtorrance@piedmont.edu>
+Author: Doug Torrance <dtorrance9@gatech.edu>
 Description: Macaulay2 is a software system devoted to supporting research in algebraic geometry and commutative algebra
 Website: https://macaulay2.com
 Category: scientific
