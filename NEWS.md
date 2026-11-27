@@ -1,3 +1,10 @@
+## version 0.6.3
+
+- Release date: 2026-11-26
+- Update for Macaulay2 1.26.11
+- Update my email address
+- Update some Javascript dependencies
+
 ## version 0.6.2
 
 - Release date: 2026-06-10
